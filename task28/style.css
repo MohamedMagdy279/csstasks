@@ -1,0 +1,30 @@
+.parent {
+    /* 3shan a7rko bra7te lfo2 */
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: #f2f2f4;
+    text-align: center;
+    text-transform: capitalize;
+    transition-duration: 0.5s;
+}
+
+.child {
+    background-color: #dededc;
+    padding: 20px ;
+    margin-top: 10px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+/* text align is inhereted */
+}
+
+.parent:hover {
+    margin-top: 10px;
+
+}
+
+/* lma a hover 3la parent ele by7sl da llchild */
+.parent:hover .child {
+    margin-top: 30px;
+}
